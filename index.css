@@ -1,0 +1,153 @@
+body {
+    background: white;
+}
+
+#title{
+        background-color: #F1F3FF;;
+
+}
+
+/* .navbar {
+    display: none;
+} */
+
+@media (max-width: 320px) {
+    body {
+        font-size: 14px;
+        /* Adjust the font size as needed */
+    }
+    .nav-item {
+    display: none;
+    }
+    /* Add more styles for mobile responsiveness here */
+    /* Example: */
+    #title {
+        padding-top: 50px;
+        /* Adjust spacing as needed */
+    }
+
+        #sub-title2 {
+            text-align: center;
+            /* Center align text in #sub-title2 */
+        }
+    
+        #sub-title2 h2 {
+            font-size: 24px;
+            /* Adjust heading font size as needed */
+        }
+    
+        #sub-title2 p {
+            font-size: 14px;
+            /* Adjust paragraph font size as needed */
+        }
+    
+        #carouselExample {
+            max-width: 100%;
+            /* Make sure the carousel is responsive */
+        }
+    
+        #carouselExample img {
+            max-width: 100%;
+            /* Ensure images inside the carousel are responsive */
+            height: auto;
+        }
+
+    #featured-3 h2 {
+        font-size: 24px;
+        /* Adjust heading font size as needed */
+    }
+
+        .square {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 320px;
+            height: auto;
+            background-color: #0D28A6;
+        }
+
+    /* Add more responsive styles based on your layout */
+}
+
+/* .navbar {
+    
+} */
+/* } */
+
+.font {
+    font-family: Helvetica;
+}
+
+.font-non-bold {
+    font-size: 14px;
+}
+
+.square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1186px;
+    height: 326px;
+    background-color: #0D28A6;
+}
+
+.rectangle1 {
+    width: 100px;
+    height: 34px;
+    background-color: #0D28A6;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.rectangle2 {
+    width: 100px;
+    height: 34px;
+    background-color: #0D28A6;
+}
+
+.nav-link {
+    color: black;
+}
+
+.font-bold {
+    font-size: 16px;
+}
+
+.border {
+    width: 268px;
+    height:196px;
+}
+
+
+.button-primary-outline {
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
+    border: 1px solid #933393;
+    border-radius: 8px;
+    align-items: center;
+    padding: 17px 16px;
+    display: flex;
+}
+
+.link-block-20 {
+    justify-content: center;
+    align-items: center;
+    margin-top: 48px;
+    text-decoration: none;
+    display: flex;
+}
+
+.carousel {
+    background: #F1F3FF;
+    width: 832px;
+    height: 270px;
+    margin: auto;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("./assets/img/Vector.svg");
+}
+
+.carousel-control-next-icon {
+    background-image: url("./assets/img/Vector-kanan.svg");
+}
