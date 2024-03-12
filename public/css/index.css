@@ -7,6 +7,12 @@ body {
 
 }
 
+.btn-utama {
+    background-color: #5CB85F;
+    color: #ffff;
+    border-radius: 0;
+}
+
 /* .navbar {
     display: none;
 } */
