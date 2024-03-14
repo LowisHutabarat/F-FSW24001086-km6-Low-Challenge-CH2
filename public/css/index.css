@@ -7,6 +7,10 @@ body {
 
 }
 
+main {
+    background-color: #F1F3FF;
+}
+
 .btn-utama {
     background-color: #5CB85F;
     color: #ffff;
@@ -20,47 +24,45 @@ body {
 @media (max-width: 320px) {
     body {
         font-size: 14px;
-        /* Adjust the font size as needed */
     }
     .nav-item {
     display: none;
     }
-    /* Add more styles for mobile responsiveness here */
-    /* Example: */
+
     #title {
         padding-top: 50px;
-        /* Adjust spacing as needed */
+
     }
 
         #sub-title2 {
             text-align: center;
-            /* Center align text in #sub-title2 */
+
         }
     
         #sub-title2 h2 {
             font-size: 24px;
-            /* Adjust heading font size as needed */
+
         }
     
         #sub-title2 p {
             font-size: 14px;
-            /* Adjust paragraph font size as needed */
+        
         }
     
         #carouselExample {
             max-width: 100%;
-            /* Make sure the carousel is responsive */
+        
         }
     
         #carouselExample img {
             max-width: 100%;
-            /* Ensure images inside the carousel are responsive */
+            
             height: auto;
         }
 
     #featured-3 h2 {
         font-size: 24px;
-        /* Adjust heading font size as needed */
+        
     }
 
         .square {
@@ -72,13 +74,9 @@ body {
             background-color: #0D28A6;
         }
 
-    /* Add more responsive styles based on your layout */
 }
 
-/* .navbar {
-    
-} */
-/* } */
+
 
 .font {
     font-family: Helvetica;
@@ -150,12 +148,16 @@ body {
     margin: auto;
 }
 
-.carousel-control-prev-icon {
-    background-image: url("./assets/img/Vector.svg");
+.carousel-control-next-icon:after {
+    content: '>';
+    font-size: 50px;
+    color: black;
 }
 
-.carousel-control-next-icon {
-    background-image: url("./assets/img/Vector-kanan.svg");
+.carousel-control-prev-icon:after {
+    content: '<';
+    font-size: 50px;
+    color: black;
 }
 
 .search .search__card {

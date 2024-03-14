@@ -5,26 +5,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BCR - Binar Car Rental</title>
+    <title>CariMobil</title>
 
     <!-- Boostrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 
-    <!-- Nice Select -->
-    <link rel="stylesheet" href="scripts/nice-select2/dist/css/nice-select2.css">
 
-    <!-- Custom CSS -->
     <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
     <main>
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg bg-transparent">
+        <section class="header">
+            <nav class="navbar navbar-expand-lg bg-transparent">
             <div class="container">
-                <a href="index.html"><img class="navbar-brand" src="./assets/img/check.png" alt=""
-                        style="width: 100px; height: 34px;"></a>
+                <a href="index.html" class="rectangle2"><img class="navbar-brand"></a>
                 <button class="btn btn-white navbar-toggler" type="button" data-bs-toggle="offcanvas"
                     data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><span
                         class="navbar-toggler-icon"></span></button>
@@ -36,21 +33,23 @@
                     </div>
                     <div class="offcanvas-body justify-content-end">
                         <ul class="navbar-nav mr-2 mb-lg-0">
-                            <li class="nav-item mx-3 my-1"><a class="nav-link" href="#ourservices">Our Sevices</a></li>
+                            <li class="nav-item mx-3 my-1"><a class="nav-link" href="#ourservices">Our Services</a></li>
                             <li class="nav-item mx-3 my-1"><a class="nav-link ml" href="#whyus">Why Us</a></li>
                             <li class="nav-item mx-3 my-1"><a class="nav-link" href="#testimonial">Testimonial</a></li>
                             <li class="nav-item mx-3 my-1"><a class="nav-link" href="#faq">FAQ</a></li>
-                        </ul><button class="btn btn-register mx-3 my-1">Register</button>
+                        </ul><button class="btn btn-success mx-3 my-1">Register</button>
                     </div>
                 </div>
             </div>
-        </nav>
-        <!-- Main Section -->
+            </nav>
+        </section>
+        
+        <!-- Isi -->
         <section class="mobil">
             <div class="container-xxl">
                 <div class="row">
                     <div class="col-lg-5  mx-lg-5 col-xl-5 col-xxl-5 mx-md-0 " style="padding-top: 100px;">
-                        <h2 class="fw-bold" style="padding-right: 10px;">Sewa & Rental Mobil Terbaik di kawasan Depok
+                        <h2 class="fw-bold" style="padding-right: 10px;">Sewa & Rental Mobil Terbaik di kawasan Medan
                         </h2>
                         <p style="padding-right: 40px;">Selamat datang di Binar Car Rental. Kami menyediakan mobil
                             kualitas terbaik dengan harga terjangkau. Selalu siap melayani kebutuhanmu untuk sewa mobil
@@ -63,6 +62,7 @@
         </section>
     </main>
 
+    <!-- Pencarian -->
     <section class="search">
         <div class="container">
             <div class="row">
@@ -71,7 +71,7 @@
                         <div class="col-lg-auto col-xl-2 col-xxl-3 col-md-auto">
                             <label>Tipe Driver</label>
                             <select class="form-select" aria-label="Default select example" id="tipeDriver">
-                                <option value="default" selected>Pilih Tipe Driver &nbsp; &nbsp; &nbsp; &nbsp; </option>
+                                <option value="default" selected>Pilih Tipe Driver</option>
                                 <option value="true">Dengan Supir</option>
                                 <option value="false">Tanpa Supir (Lepas Kunci)</option>
                             </select>
@@ -83,7 +83,7 @@
                         <div class="col-lg-auto col-xl-auto col-md-auto search__time">
                             <labe>Waktu Jemput/Ambil</labe>
                             <select class="form-select" aria-label="Default select example" id="waktuJemput">
-                                <option value="false" selected>Pilih Waktu &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                <option value="false" selected>Pilih Waktu
                                 </option>
                                 <option value="08:00">08.00 WIB</option>
                                 <option value="09:00">09.00 WIB</option>
@@ -99,7 +99,7 @@
                                 <input type="search" class="form-control border-end-0" placeholder="Jumlah Penumpang"
                                     id="jumlahPenumpang" value="0">
                                 <span class="input-group-text bg-white">
-                                    <img src="images/fi_users.png" width="20px" alt="">
+                                    <img src="./assets/img/user.png" width="20px" alt="">
                                 </span>
                             </div>
                         </div>
@@ -112,7 +112,7 @@
         </div>
     </section>
     
-    <!-- hasil pencarian mobil -->
+    <!-- Hasil -->
     <section class="cars ">
         <div class="container ">
             <div class="row justify-content-center ">
@@ -141,22 +141,16 @@
                 </div>
                 <div class="col-md-3 mx-auto">
                     <p class="fw-light">Connect With Us</p>
-                    <p><img class="mx-1" src="images/icon_facebook.svg" alt="">
-                        <img class="mx-1" src="images/icon_instagram.svg" alt="">
-                        <img class="mx-1" src="images/icon_twitter.svg" alt="">
-                        <img class="mx-1" src="images/icon_mail.svg" alt="">
-                        <img class="mx-1" src="images/icon_twitch.svg" alt="">
+                    <p> <img src="./assets/img/list.png" alt="" width="150px">
                     </p>
                 </div>
                 <div class="col-md-3 mx-auto">
-                    <p>Copyright Binar 2022</p><img src="images/logo.png" alt="" width="100px">
+                    <p>Copyright Binar 2022</p>
+                    <p class="rectangle2"></p>
                 </div>
             </div>
         </div>
     </footer>
-    <!-- Script -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="scripts/nice-select2/dist/js/nice-select2.js"></script>
     <!-- Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js "
         integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3 " crossorigin="anonymous ">
