@@ -40,4 +40,4 @@ const server = (req, res) => {
 }
 
 http.createServer(server).listen(PORT);
-console.log(`Server is running ... PORT : localhost:${PORT}`);
+console.log(`Server is running Now ... PORT : localhost:${PORT}`);
